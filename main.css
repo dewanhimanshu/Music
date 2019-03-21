@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    padding:0;
+    font:10px;
+    background-color: #0c1027;
+    color:white;
+    overflow-x: hidden;
+}
+.main{
+    display: flex;
+}
+.card{
+    width: 100%;
+    flex-grow: 5;
+    background-color:#192453;
+    height: 50vh;
+    margin-right: 3%;
+    margin-left: 10%;
+}
+.list{
+    width: 250px;
+    background-color: red;
+    height: 600px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font:10px;
+    background-color: #0c1027;
+    color:white;
+}
+.header{
+    display: flex;
+    margin:0.5em;
+    justify-content: space-around;
+}
+.heading-logo-image{
+    width:5em;
+    border-radius:50%;
+}
+.brand{
+margin-top: 1.5em;
+margin-left: 1.2em;
+}
+.fav-text{
+  width:30%;
+  padding-left:3%;
+  vertical-align:middle;
+}
+.fav-text p{
+    margin-top:1.5em
+}
+
+.search {
+  background-color:#192453;
+  border: none;
+  border: solid #192453;
+  border-radius: 2rem;
+  height: 2em;
+  width: 20em;
+  margin-top: 1.5em;
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 21px !important;
+  color: white;
+}
+
+.search input{
+  background-color: #192453;
+  border: none;
+  border: solid #192453;
+  height: 2em;
+  width: 20em;
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 21px !important;
+  color: white;
+}
+
+.user_img img{
+  width:3rem;
+  border-radius:50%;
+  margin-top: 15px;
+}
+.notification-icon i{
+    margin-top: 1.2em;
+}
+
+input:focus { 
+    border:none;
+  }
+
+.card-img{
+    height: 100%;
+    width: 43%;
+    background-color: aliceblue;
+    background-image: url('music.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: inline-block;
+}
+
+.card-content{
+    display: inline-block;
+    vertical-align: top;
+    display: absolute;
+}
+.card-content *{
+    display: absolute;
+}

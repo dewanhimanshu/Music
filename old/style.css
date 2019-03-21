@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding:0;
+    font:10px;
+    background-color: #0c1027;
+    color:white;
+}
+.header{
+    display: flex;
+    margin:0.5em;
+    justify-content: space-around;
+}
+.heading-logo-image{
+    width:5em;
+    border-radius:50%;
+}
+.brand{
+margin-top: 1.5em;
+margin-left: 1.2em;
+}
+.fav-text{
+width: 50%;
+text-align: center;
+vertical-align: middle;
+}
+.fav-text p{
+    margin-top: 1.5em
+}
+
+.search input{
+    background-color: transparent;
+    border: none;
+    border: 0.2em solid blue;
+    border-radius: 4em;
+    height: 2em;
+    width: 16em;
+    margin-top: 1.3em;
+    background-image: url(<i class="fas fa-search"></i>);
+    background-position: 3px 50%;
+    background-repeat: no-repeat;
+    padding-left: 21px !important;
+    color:white;
+}
+.user_img img{
+  width:5em;
+  border-radius:50%;
+}
+.notification-icon i{
+    margin-top: 1.2em;
+}
+.main-section{
+  display: inline-block;
+  width:75%;
+}
+.Queue{
+      display: inline-block;
+      width:20%;
+      height: 20%;
+      background-color: red;
+}
+.latest-releases{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.album-img{
+  width:7em;
+}
